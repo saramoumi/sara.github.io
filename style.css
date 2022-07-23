@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* flex option for all section start*/
+.flex {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2%;
+
+
+}
+
+/* flex option for all section finish*/
+
+.description {
+    padding-top: 150px;
+
+}
+
+.description p {
+    padding-top: 20px;
+    margin-right: 100px;
+
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.half-width h1 {
+    font-size: 60px;
+    color: #575757;
+    text-transform: capitalize;
+
+}
+
+.half-width a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 50px;
+    background-image: radial-gradient(circle 597px at 93% 9.8%, rgb(98, 28, 211) 1.7%, rgb(251, 255, 7) 97%);
+    box-shadow: 5px 5px 20px gray;
+
+}
+
+#reading {
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.half-width img {
+    width: 95%;
+
+}
+
+.about-section {
+    background-image: url(images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-section a {
+    margin-top: 70px;
+    margin-bottom: 250px;
+}
+
+.count-section {
+    margin: 50px;
+    box-shadow: 1px 1px 10px gray;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.count-section h1 {
+    font-size: 55px;
+    font-weight: 900;
+    padding-bottom: 9px;
+}
+
+/* gallery section start */
+
+.gallery-section {
+    padding: 20px 0;
+    margin: 2%;
+
+}
+
+.text {
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+
+    font-size: 40px;
+
+     -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.gallery-section h1 {
+    text-align: center;
+    padding: 35px 0;
+    font-size: 36px;
+    color: #575757;
+
+}
+
+.gallery-section p {
+    text-align: center;
+    margin: 20px 0;
+    color: #7e7e7e;
+
+}
+
+.gallery_blog img {
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+
+}
+
+.gallery_blog div {
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 25px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.gallery_content p,
+img {
+    text-align: left;
+    padding: 20px;
+}
+
+.gallery_content h1 {
+    font-weight: 700px;
+    font-size: 40px;
+    text-align: left;
+    color: black;
+    padding: 0 20px;
+
+}
+
+/* gallery section finish  */
+
+
+/* footer section start */
+footer {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+
+}
+
+footer h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+
+/* footer section finish */
+
+/* last/extra section start */
+
+.last_section {
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0;
+}
+
+.last_section h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+.last_section p {
+    color: rgba(128, 128, 128, 0.329);
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+}
+
+.last_section span {
+    padding-left: 100px;
+}
+
+/* last/extra section finish */
